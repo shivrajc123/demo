@@ -1,77 +1,168 @@
 {
-   "data":{
-      "type":"graph",
-      "nodes":[
-         {
-            "gid":"n1",
-            "label":"Node 1"
-         },
-         {
-            "gid":"n2",
-            "label":"Node 2"
-         },
-         {
-            "gid":"n3",
-            "label":"Node 3"
-         },
-         {
-            "gid":"n4",
-            "label":"Node 4"
-         },
-         {
-            "gid":"n5",
-            "label":"Node 5"
-         },
-         {
-            "gid":"n6",
-            "label":"Node 6"
-         },
-         {
-            "gid":"n7",
-            "label":"Node 7"
-         }
-      ],
-      "edges":[
-         {
-            "gid":"e1",
-            "source":"n1",
-            "target":"n2"
-         },
-         {
-            "gid":"e2",
-            "source":"n2",
-            "target":"n3"
-         },
-         {
-            "gid":"e3",
-            "source":"n3",
-            "target":"n4"
-         },
-         {
-            "gid":"e4",
-            "source":"n4",
-            "target":"n5"
-         },
-         {
-            "gid":"e5",
-            "source":"n1",
-            "target":"n3"
-         },
-         {
-            "gid":"e6",
-            "source":"n6",
-            "target":"n3"
-         },
-         {
-            "gid":"e7",
-            "source":"n6",
-            "target":"n5"
-         },
-         {
-            "gid":"e8",
-            "source":"n7",
-            "target":"n6"
-         }
-      ]
-   }
+   "data": {
+  "type": "map",
+  "nodes": [
+    {
+      "uid": "ciena-montreal",
+      "gid": "montreal",
+      "label": "Montreal, Quebec",
+      "config": {
+        "x": -73.76038698819887,
+        "y": 45.48452048554427
+      }
+    },
+    {
+      "uid": "ciena-ottawa",
+      "gid": "ottawa",
+      "label": "Ottawa, Ontario",
+      "config": {
+        "x": -75.92899350539446,
+        "y": 45.34448839295617
+      }
+    },
+    {
+      "uid": "ciena-quebec-city",
+      "gid": "quebec-city",
+      "label": "Quebec City, Quebec",
+      "config": {
+        "x": -71.31814944398924,
+        "y": 46.79871668154117
+      }
+    },
+    {
+      "uid": "ciena-san-jose",
+      "gid": "san-jose",
+      "label": "San Jose, California",
+      "config": {
+        "x": -121.95175490186519,
+        "y": 37.4126405358744
+      }
+    },
+    {
+      "uid": "ciena-alpharetta",
+      "gid": "alpharetta",
+      "label": "Alpharetta, Georgia",
+      "config": {
+        "x": -84.31037301542017,
+        "y": 34.05233331758145
+      }
+    },
+    {
+      "uid": "ciena-london",
+      "gid": "london",
+      "label": "London, UK",
+      "config": {
+        "x": -0.08481078619848031,
+        "y": 51.522456744683666
+      }
+    },
+    {
+      "uid": "ciena-madrid",
+      "gid": "madrid",
+      "label": "Madrid, Spain",
+      "config": {
+        "x": -3.688648801804274,
+        "y": 40.4372116953666
+      }
+    },
+    {
+      "uid": "ciena-frankfurt",
+      "gid": "frankfurt",
+      "label": "Frankfurt, Germany",
+      "config": {
+        "x": 8.58764697143473,
+        "y": 50.0584542910916
+      }
+    },
+    {
+      "uid": "ciena-pune",
+      "gid": "pune",
+      "label": "Pune, India",
+      "config": {
+        "x": 73.7739600843727,
+        "y": 18.57177219022811
+      }
+    },
+    {
+      "uid": "ciena-bangalore",
+      "gid": "bangalore",
+      "label": "Bangalore, India",
+      "config": {
+        "x": 77.63315048249326,
+        "y": 12.912459184082122
+      }
+    },
+    {
+      "gid": "maryland",
+      "uid": "ciena-maryland",
+      "label": "Maryland",
+      "config": {
+        "x": -76.70837244536887,
+        "y": 39.273513329920846
+      }
+    }
+  ],
+  "edges": [
+    {
+      "gid": "maryland-london",
+      "uid": "maryland-london",
+      "source": "maryland",
+      "target": "london"
+    },
+    {
+      "gid": "maryland-ottawa",
+      "uid": "maryland-ottawa",
+      "source": "maryland",
+      "target": "ottawa"
+    },
+    {
+      "gid": "maryland-montreal",
+      "uid": "maryland-montreal",
+      "source": "maryland",
+      "target": "montreal"
+    },
+    {
+      "gid": "maryland-quebec-city",
+      "uid": "maryland-quebec-city",
+      "source": "maryland",
+      "target": "quebec-city"
+    },
+    {
+      "gid": "maryland-san-jose",
+      "uid": "maryland-san-jose",
+      "source": "maryland",
+      "target": "san-jose"
+    },
+    {
+      "gid": "maryland-alpharetta",
+      "uid": "maryland-alpharetta",
+      "source": "maryland",
+      "target": "alpharetta"
+    },
+    {
+      "gid": "maryland-madrid",
+      "uid": "maryland-madrid",
+      "source": "maryland",
+      "target": "madrid"
+    },
+    {
+      "gid": "maryland-frankfurt",
+      "uid": "maryland-frankfurt",
+      "source": "maryland",
+      "target": "frankfurt"
+    },
+    {
+      "gid": "maryland-pune",
+      "uid": "maryland-pune",
+      "source": "maryland",
+      "target": "pune"
+    },
+    {
+      "gid": "maryland-bangalore",
+      "uid": "maryland-bangalore",
+      "source": "maryland",
+      "target": "bangalore"
+    }
+  ]
+}
 }
