@@ -1,4 +1,5 @@
 {
+	"data": {
 		"type": "map",
 	"nodes": [{
 			"uid": "ciena-montreal",
@@ -161,4 +162,5 @@
 			"target": "bangalore"
 		}
 	]
+	}
 }
